@@ -10,6 +10,8 @@ appnope==0.1.2
     #   ipython
 argon2-cffi==21.1.0
     # via notebook
+arrow==1.1.1
+    # via -r requirements.in
 attrs==21.2.0
     # via jsonschema
 backcall==0.2.0
@@ -144,7 +146,9 @@ pyparsing==2.4.7
 pyrsistent==0.18.0
     # via jsonschema
 python-dateutil==2.8.2
-    # via jupyter-client
+    # via
+    #   arrow
+    #   jupyter-client
 pyzmq==22.3.0
     # via
     #   jupyter-client
